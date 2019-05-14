@@ -1,0 +1,158 @@
+body
+{
+	margin: 0;
+	background-color: #64CE59;
+}
+
+li.navigation
+{
+	font-size: 12px;
+	font-family: engravers mt;
+	display: inline-block;
+}
+
+ul.navigation
+{
+	display: inline-block;
+	text-align: center;
+    top: 0;
+    width: 100%;
+    background-color: #01EDFE;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}	
+a
+{
+	display: block;
+    padding: 6px;
+    background-color: #AA57E2;
+}
+li a:hover 
+{
+    background-color: #01EDFE;
+}
+.title
+{
+	text-align: center;
+	width: 100%;
+	padding: 27px;
+	background-color: #FE2DAA;
+	font-size: 24px;
+	font-family:Lucida Calligraphy;
+	font-variant: small-caps;
+	font-weight: bold;
+	justify-content: center;
+	color: white;
+}
+
+
+ul
+{
+	list-style-type: none;
+}
+
+.month 
+{
+    padding: 15px 5px;
+    width: 50%;
+    background: #33ccff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family:Lucida Calligraphy;
+    font-variant: small-caps;
+    font-weight: bold;
+    border: solid;
+}
+
+ul.days
+{
+	margin-left: auto;
+    margin-right: auto;	
+    padding: 10px;
+    width: 50%;
+    background-color: #ffb3ff;
+    border: solid;
+}
+.days li
+{
+    display: inline-block;
+    width: 13%;
+    color: #000033;
+    font-family:Lucida Calligraphy;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+ul.date 
+{
+	margin-left: auto;
+    margin-right: auto;	
+    padding: 10px;
+    width: 50%;
+    background-color: #ffb3ff;
+    border: solid;
+}
+.date li
+{
+    display: inline-block;
+    width: 13%;
+    color: #000033;
+    font-family:Lucida Calligraphy;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.peak
+{
+	background-color: #ff3333;
+}
+
+.low
+{
+	background-color: #ffff66;
+}
+
+.off
+{
+	background-color: #00ff99;
+}
+
+#peak
+{
+	background-color: #ff3333;
+	font-variant: normal;
+}
+
+#low
+{
+	background-color: #ffff66;
+	font-variant: normal;
+}
+
+#off
+{
+	background-color: #00ff99;
+	font-variant: normal;
+}
+
+div.price
+{
+	border: solid;
+    width: 50%;
+    background: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family:Lucida Calligraphy;
+    font-variant: small-caps;
+    font-weight: bold;  
+}

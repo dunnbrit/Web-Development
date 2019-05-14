@@ -1,0 +1,74 @@
+body
+{
+	margin: 0;
+    background-color: #64CE59;
+}
+
+li.navigation
+{
+	font-size: 12px;
+	font-family: engravers mt;
+	display: inline-block;
+}
+
+ul.navigation
+{
+	display: inline-block;
+	text-align: center;
+    top: 0;
+    width: 100%;
+    background-color: #01EDFE;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}	
+a
+{
+	display: block;
+    padding: 6px;
+    background-color: #AA57E2;
+}
+li a:hover 
+{
+    background-color: #01EDFE;
+}
+
+.title
+{
+    text-align: center;
+    width: 100%;
+    padding: 27px;
+    background-color: #FE2DAA;
+    font-size: 30px;
+    font-family:Lucida Calligraphy;
+    font-variant: small-caps;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+}
+
+.subtitle
+{
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+    background-color: #AA57E2;
+    font-size: 24px;
+    font-family:Lucida Calligraphy;
+    font-variant: small-caps;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.images
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}

@@ -1,0 +1,32 @@
+#row
+{
+	font-style: italic;
+	font-weight: normal;
+}
+
+.outer-content
+{
+	justify-content: left;
+	width: 75%;
+	padding-top: 20px;
+	background-color: pink;
+}
+
+#inner-content
+{
+	width: 75%;
+	background-color: #58ACFA;
+	margin: 0 auto;
+	text-align: center;
+}
+
+tr.table:nth-of-type(even)
+{
+	background-color: #F5A9F2;
+}
+
+tr.table:nth-of-type(odd)
+{
+	background-color: #9F81F7;
+}
+
